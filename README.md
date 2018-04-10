@@ -1,3 +1,14 @@
+# Screeps Typescript Starter Mod
+This will just be an modded / extended Version of the Starter.
+It's huge WIP 4 now, so there isn't rly a big difference at all to the original.
+
+## ToDO:
+* Get a Basic Structure
+* Add some Helper Functions
+
+## Implemented:
+* Added TypeDoc for some Documentation purposes
+
 # Screeps Typescript Starter
 
 Screeps Typescript Starter is a starting point for a Screeps AI written in Typescript. It provides everything you need to start writing your AI whilst leaving `main.ts` as empty as possible.

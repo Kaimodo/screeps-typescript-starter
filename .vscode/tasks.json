@@ -1,0 +1,134 @@
+
+//
+// Available variables which can be used inside of strings:
+// ${workspaceFolder} the path of the workspace folder that contains the tasks.json file
+// ${workspaceFolderBasename} the name of the workspace folder that contains the tasks.json file without any slashes (/)
+// ${file} the current opened file
+// ${relativeFile} the current opened file relative to the workspace folder containing the file
+// ${fileBasename} the current opened file's basename
+// ${fileBasenameNoExtension} the current opened file's basename without the extension
+// ${fileDirname} the current opened file's dirname
+// ${fileExtname} the current opened file's extension
+// ${cwd} the task runner's current working directory on startup
+// ${lineNumber} the current selected line number in the active file
+{
+    "version": "2.0.0",
+    "windows": {
+        "options": {
+            "shell": {
+                "executable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "args": [
+                    "-NoProfile",
+                    "-ExecutionPolicy",
+                    "Bypass",
+                    "-Command"
+                ]
+            }
+        }
+    },
+    "linux": {
+        "options": {
+            "shell": {
+                "executable": "/usr/bin/pwsh",
+                "args": [
+                    "-NoProfile",
+                    "-Command"
+                ]
+            }
+        }
+    },
+    "osx": {
+        "options": {
+            "shell": {
+                "executable": "/usr/local/bin/pwsh",
+                "args": [
+                    "-NoProfile",
+                    "-Command"
+                ]
+            }
+        }
+    },
+    "tasks": [
+        {
+            "label": "Screeps:Deploy(World)",
+            "type": "shell",
+            "command": "npm run push-main",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Screeps:Deploy(Simulator)",
+            "type": "shell",
+            "command": "npm run push-sim",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Screeps:Deploy(PrivateServer)",
+            "type": "shell",
+            "command": "npm run push-pserver",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "TypeDoc:Generate",
+            "type": "shell",
+            "command": "typedoc --out AI-Doc src/ --ignoreCompilerErrors --name Screeps-kAI",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Screeps:Live-Run(World)",
+            "type": "shell",
+            "command": "npm run watch-main",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Screeps:Live-Run(Simulator)",
+            "type": "shell",
+            "command": "npm run watch-sim",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Screeps:Live-Run(PrivateServer)",
+            "type": "shell",
+            "command": "npm run watch-pserver",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Screeps:Live-Run(ScreepsPLUS)",
+            "type": "shell",
+            "command": "npm run watch-splus",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Screeps:Deploy(ScreepsPLUS)",
+            "type": "shell",
+            "command": "npm run push-splus",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

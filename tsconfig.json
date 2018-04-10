@@ -1,7 +1,14 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-    "target": "es5",
+    "strictNullChecks": false,
+    "strictPropertyInitialization": false,
+    "removeComments": true,
+    "noEmitOnError": true,
+    "noResolve": false,
+    "noUnusedParameters": false,
+    "noUnusedLocals": false,
+    "target": "es6",
     "outDir": "dist",
     "baseUrl": "src/",
     "sourceMap": true,
@@ -9,9 +16,15 @@
     "experimentalDecorators": true,
     "noImplicitReturns": true,
     "allowSyntheticDefaultImports": true,
-    "allowUnreachableCode": false
+    "allowUnreachableCode": false,
+    "noImplicitAny": true,
+    "types": [
+      "lodash",
+      "typed-screeps"
+    ]
   },
   "exclude": [
     "node_modules"
   ]
 }
+

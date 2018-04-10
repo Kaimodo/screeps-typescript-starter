@@ -3,6 +3,17 @@
     "tslint:recommended"
   ],
   "rules": {
+    "prefer-const": false,
+    "one-line": false,
+    "no-var-requires":false,
+    "ordered-imports": false,
+    "object-literal-sort-keys" :false,
+    "object-literal-shorthand" :false,
+    "max-classes-per-file":false,
+    "max-line-length":false,
+    "array-type": false,
+    "no-shadowed-variable": false,
+    "no-angle-bracket-type-assertion": false,
     "forin": false,
     "interface-name": [true, "never-prefix"],
     "member-ordering": [false],
@@ -14,7 +25,8 @@
       "ban-keywords",
       "check-format",
       "allow-pascal-case",
-      "allow-leading-underscore"
+      "allow-leading-underscore",
+      "allow-trailing-underscore"
     ]
   }
 }

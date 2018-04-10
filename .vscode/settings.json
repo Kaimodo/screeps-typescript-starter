@@ -2,6 +2,9 @@
   "editor.renderWhitespace": "boundary",
   "files.encoding": "utf8",
   "files.trimTrailingWhitespace": true,
+  "autoimport.autoComplete": false,
+  "editor.formatOnType": true,
+  "editor.formatOnPaste": true,
   "files.insertFinalNewline": true,
   "search.exclude": {
     "_book/**": true,

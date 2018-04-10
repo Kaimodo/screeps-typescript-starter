@@ -19,6 +19,7 @@ export default {
   output: {
     file: "dist/main.js",
     format: "cjs",
+    name: "Screeps-Typescript-Starter-Mod",
     sourcemap: true
   },
 

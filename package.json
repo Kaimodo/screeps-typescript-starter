@@ -12,21 +12,24 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch-main": "rollup -cw --dest main",
     "watch-pserver": "rollup -cw --dest pserver",
-    "watch-sim": "rollup -cw --dest sim"
+    "watch-sim": "rollup -cw --dest sim",
+    "push-splus": "rollup -c --dest main",
+    "watch-splus": "rollup -cw --dest main"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/screepers/screeps-typescript-starter.git"
+    "url": "git+https://github.com/Kaimodo/Screeps-kAI.git"
   },
   "author": "",
   "license": "Unlicense",
   "bugs": {
-    "url": "https://github.com/screepers/screeps-typescript-starter/issues"
+    "url": "https://github.com/Kaimodo/Screeps-kAI/issues"
   },
-  "homepage": "https://github.com/screepers/screeps-typescript-starter#readme",
+  "homepage": "https://github.com/Kaimodo/Screeps-kAI#readme",
   "devDependencies": {
     "@types/lodash": "^3.10.1",
-    "@types/screeps": "^2.1.0",
+    "@types/lodash.minby": "^4.6.3",
+    "typed-screeps": "github:bencbartlett/typed-screeps",
     "rollup": "^0.55.3",
     "rollup-plugin-clean": "^1.0.0",
     "rollup-plugin-commonjs": "^8.2.6",
@@ -34,9 +37,14 @@
     "rollup-plugin-screeps": "^0.1.2",
     "rollup-plugin-typescript2": "^0.11.0",
     "tslint": "^5.8.0",
+    "typedoc": "^0.11.1",
     "typescript": "^2.7.1"
   },
   "dependencies": {
-    "source-map": "~0.6.1"
+    "screeps-inscribe": "^0.2.0",
+    "source-map": "~0.6.1",
+    "@types/screeps": "^2.2.1",
+    "@types/screeps-profiler": "^1.2.1",
+    "lodash.minby": "^4.6.0"
   }
 }
