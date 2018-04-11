@@ -1,14 +1,15 @@
 # Screeps Typescript Starter Mod
 This will just be an modded / extended Version of the Starter.
-It's huge WIP 4 now, so there isn't rly a big difference at all to the original.
+It's WIP. It can be used OOB right now, anyway there is some more work 2 do.
 
 ## ToDO:
-* Get a Basic Structure
-* Add some Helper Functions
+* Fine Tuning
 
 ## Implemented:
 * Added TypeDoc for some Documentation purposes
 * Added a Tasks.json for VSCode Support
+* Added little Structure in SRC
+* Added a poor Basic Example AI
 
 # Screeps Typescript Starter
 
