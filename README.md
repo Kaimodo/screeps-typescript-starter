@@ -4,11 +4,13 @@ It's WIP. It can be used OOB right now, anyway there is some more work 2 do.
 
 ## ToDO:
 * Fine Tuning
+* Better Documentation
 
 ## Implemented:
 * Added TypeDoc for some Documentation purposes
 * Added a Tasks.json for VSCode Support
 * Added little Structure in SRC
+* Added some Helper Functions
 * Added a poor Basic Example AI
 
 # Screeps Typescript Starter
