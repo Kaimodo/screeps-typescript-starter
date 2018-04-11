@@ -1,5 +1,5 @@
 {
-  "name": "screeps-typescript-starter",
+  "name": "screeps-typescript-starter-mod",
   "version": "3.0.0",
   "description": "",
   "main": "index.js",
@@ -41,10 +41,10 @@
     "typescript": "^2.7.1"
   },
   "dependencies": {
-    "screeps-inscribe": "^0.2.0",
-    "source-map": "~0.6.1",
     "@types/screeps": "^2.2.1",
     "@types/screeps-profiler": "^1.2.1",
-    "lodash.minby": "^4.6.0"
+    "lodash.minby": "^4.6.0",
+    "screeps-inscribe": "^0.2.0",
+    "source-map": "~0.6.1"
   }
 }

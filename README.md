@@ -8,6 +8,7 @@ It's huge WIP 4 now, so there isn't rly a big difference at all to the original.
 
 ## Implemented:
 * Added TypeDoc for some Documentation purposes
+* Added a Tasks.json for VSCode Support
 
 # Screeps Typescript Starter
 

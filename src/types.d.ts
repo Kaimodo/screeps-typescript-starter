@@ -1,5 +1,18 @@
-// type shim for nodejs' `require()` syntax
-// for stricter node.js typings, remove this and install `@types/node`
 declare const require: (module: string) => any;
 
-// add your custom typings here
+declare var global: Global;
+declare const __REVISION__: string;
+declare const __BUILD_TIME__: string;
+
+interface Global {
+  uuid: number;
+  log: any;
+  CREEP_BUILD_RANGE: number;
+  CREEP_RANGED_ATTACK_RANGE: number;
+  CREEP_UPGRADE_RANGE: number;
+  CREEP_REPAIR_RANGE: number;
+  CREEP_RANGED_HEAL_RANGE: number;
+  Profiler: Profiler;
+  Inscribe: any;
+  cc: any;
+}
