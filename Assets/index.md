@@ -1,4 +1,7 @@
-# Avaiable Structures per RCL
+# Quick Infos
+
+## Avaiable Structures per RCL
+
 | RCL | Road      | Container | Spawn | Extension | Energy Ava | Rampart   | Wall | Tower | Storage | Link | Extraktor | Lab | Terminal | Observer | PowerSPawn |
 |-----|-----------|-----------|-------|-----------|------------|-----------|------|-------|---------|------|-----------|-----|----------|----------|------------|
 | 0   | 0         | 5         | 1     | 0         | 0          | 0         | 0    | 0     | 0       | 0    | 0         | 0   | 0        | 0        | 0          |
@@ -13,7 +16,42 @@
 
 [Table done with CsvToMarkdownTable][1]
 
+## TypeDpc Comments
+
+### Functions
+
+<pre><code>
+/**
+ * Comment for method ´doSomething´.
+ * @param target  Comment for parameter ´target´.
+ * @returns       Comment for return value.
+ */
+function doSomething(target:any, arg:any):number {
+    return 0;
+}
+</code></pre>
+
+### Types / Class
+
+<pre><code>
+/** Description of MyType interface */
+interface MyType {
+    /** This property is ... */
+    haha: number,
+    /** Optional property useful for ... */
+    optional?: string
+}
+
+/**
+ * Description of what MyClass is
+ */
+class MyClass{
+    /**
+     * @param config Docs on config property.It is different than the interface docs
+     */
+    constructor(private config: MyType) {
+    }
+}
+</code></pre>
+
 [1]:https://donatstudios.com/CsvToMarkdownTable
-https://github.com/wolffman122/Screeps/tree/master/src
-https://github.com/canisminor1990/screeps/blob/master/src/util/room.ts
-https://github.com/kumikill/kuminet/blob/master/src/Utils/Stats.ts

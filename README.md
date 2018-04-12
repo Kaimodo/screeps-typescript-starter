@@ -1,17 +1,42 @@
 # Screeps Typescript Starter Mod
+
 This will just be an modded / extended Version of the Starter.
 It's WIP. It can be used OOB right now, anyway there is some more work 2 do.
 
-## ToDO:
+## ToDO
+
 * Fine Tuning
 * Better Documentation
 
-## Implemented:
+## Implemented
+
 * Added TypeDoc for some Documentation purposes
 * Added a Tasks.json for VSCode Support
 * Added little Structure in SRC
 * Added some Helper Functions
-* Added a poor Basic Example AI
+
+### TypeDoc
+The Documentation can be done via Task in VSCODE
+or per CommandLine
+
+Type
+
+`typedoc --out AI-Doc src/ --ignoreCompilerErrors --name <NAME_OF_UR_PROJECT>`
+
+a Quick Info on how to Comment for TypeDoc is in the [Assets-Folder][_Asset]
+[_Asset]:Assets/index.md
+
+### VSCode-Tasks
+
+* Screeps:Deploy(World)
+* Screeps:Deploy(Simulator)
+* Screeps:Deploy(PrivateServer)
+* Screeps:Deploy(ScreepsPLUS)
+* TypeDoc:Generate
+* Screeps:Live-Run(World)
+* Screeps:Live-Run(Simulator)
+* Screeps:Live-Run(PrivateServer)
+* Screeps:Live-Run(ScreepsPLUS)
 
 # Screeps Typescript Starter
 
@@ -45,7 +70,7 @@ Screeps Typescript Starter uses rollup to compile your typescript and upload it 
 
 Move or copy `screeps.sample.json` to `screeps.json` and edit it, changing the credentials and optionally adding or removing some of the destinations.
 
-Running `rollup -c` will compile your code and do a "dry run", preparing the code for upload but not actually pushing it. Running `rollup -c --dest main` will compile your code, and then upload it to a screeps server using the `main` config from `screeps.json`.
+Running `rollup -c` will compile your code and do a "dry run preparing the code for upload but not actually pushing it. Running `rollup -c --dest main` will compile your code, and then upload it to a screeps server using the `main` config from `screeps.json`.
 
 You can use `-cw` instead of `-c` to automatically re-run when your source code changes - for example, `rollup -cw --dest main` will automatically upload your code to the `main` configuration every time your code is changed.
 

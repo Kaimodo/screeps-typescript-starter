@@ -29,7 +29,6 @@
   "devDependencies": {
     "@types/lodash": "^3.10.1",
     "@types/lodash.minby": "^4.6.3",
-    "typed-screeps": "github:bencbartlett/typed-screeps",
     "rollup": "^0.55.3",
     "rollup-plugin-clean": "^1.0.0",
     "rollup-plugin-commonjs": "^8.2.6",
@@ -37,7 +36,8 @@
     "rollup-plugin-screeps": "^0.1.2",
     "rollup-plugin-typescript2": "^0.11.0",
     "tslint": "^5.8.0",
-    "typedoc": "^0.11.1",
+    "typed-screeps": "^2.2.2",
+    "typedoc": "^0.5.10",
     "typescript": "^2.7.1"
   },
   "dependencies": {

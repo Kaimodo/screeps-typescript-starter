@@ -3,13 +3,6 @@ import { LogLevels } from "lib/log/log.levels";
 // Memory Version
 export const MEMORY_VERSION = 1;
 
-// Test
-global.CREEP_BUILD_RANGE = 3;
-global.CREEP_RANGED_ATTACK_RANGE = 3;
-global.CREEP_UPGRADE_RANGE = 3;
-global.CREEP_REPAIR_RANGE = 3;
-global.CREEP_RANGED_HEAL_RANGE = 3;
-
 // Enable this if you want a lot of text to be logged to console.
 export const ENABLE_DEBUG_MODE: boolean = true;
 
