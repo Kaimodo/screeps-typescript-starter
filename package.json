@@ -18,14 +18,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kaimodo/Screeps-kAI.git"
+    "url": "git+https://github.com/Kaimodo/Screeps-typescript-starter-mod.git"
+
   },
   "author": "",
   "license": "Unlicense",
   "bugs": {
-    "url": "https://github.com/Kaimodo/Screeps-kAI/issues"
+    "url": "https://github.com/Kaimodo/Screeps-typescript-starter-mod/issues"
+
   },
-  "homepage": "https://github.com/Kaimodo/Screeps-kAI#readme",
+  "homepage": "https://github.com/Kaimodo/Screeps-typescript-starter-mod#readme",
   "devDependencies": {
     "@types/lodash": "^3.10.1",
     "@types/lodash.minby": "^4.6.3",

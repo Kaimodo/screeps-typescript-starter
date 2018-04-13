@@ -8,7 +8,7 @@ interface GrafanaMemory {
   resources: any;
 }
 
-class GrafanaCalss {
+class GrafanaClass {
   public run() {
     Memory.stats = { tick: Game.time };
     Memory.stats.cpu = Game.cpu;
@@ -77,4 +77,4 @@ class GrafanaCalss {
   }
 }
 
-export const Grafana = new GrafanaCalss();
+export const Grafana = new GrafanaClass();
